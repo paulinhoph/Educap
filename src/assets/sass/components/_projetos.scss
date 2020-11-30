@@ -1,0 +1,122 @@
+.containerProjetos{
+	width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 10%;
+  .galeria{
+    .slick-slider{
+        .slick-list{
+          .slick-track{
+            .slick-slide{
+              div{
+                div{
+                  .view {
+                    display: -webkit-flex;
+                    display: flex;
+                    -webkit-justify-content: center;
+                    justify-content: center;
+                    -webkit-align-items: center;
+                    align-items: center;
+                    
+                    margin: 15px;
+                    float: left;
+                    position: relative;
+                    text-align: center;
+                    cursor: default;
+                    
+                    img {
+                    display: block;
+                    position: relative
+                    }
+                    .mask{
+                      width: 100%;
+                      .content{
+                        width: 100%;
+                      }
+                    }
+                    .mask, .content {
+                      transform: scale(1.1);
+                      // width: 217px;
+                      height: 152px;
+                      position: absolute;
+                      overflow: hidden;
+                      // top: 5px;
+                      // left: 17px;
+                    }
+                    // .content div{
+                    // display: flex;
+                    // position: relative;
+                    // color: #fff;
+                    // padding: 0px 10px 0px;
+                    // text-align: center
+                    // }
+                  }
+                  
+                  .view-first{
+                    img {
+                    transition: all 0.2s linear;
+                    // margin-left: 25px;
+                    height: 150px;
+                    }
+                    .mask {
+                      display: flex;
+                      justify-content: center;
+                      align-items: center;
+                      opacity: 0;
+                      background: $gradientRgba;
+                      transition: all 0.4s ease-in-out;
+                      // width: 89%;
+                      // height: 28vh;
+                      // left: 27px;
+                      // top: 14px;
+                      p{
+                        padding: 8px;
+                        font-weight: bold;
+                        color: #fff;
+                      }
+                    }
+                    .content div{
+                    transform: translateY(100px);
+                    opacity: 0;
+                    transition: all 0.2s linear;
+                    }
+                  }
+                  .view-first:hover {
+                    img {
+                      transform: scale(1.1);
+                    }
+                    .mask {
+                      opacity: 1;
+                    }
+                    .content div{
+                      opacity: 1;
+                      transform: translateY(0px);
+                    }
+                    .content div {
+                    transition-delay: 0.1s;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+    }
+  }
+}
+  // .icone{
+  //   position: relative;
+  //   top: 145px;
+  //   left:50px;
+    
+  //   }
+  //   .redeSocial{
+  //   width: 20px;
+  //   margin: 5px;
+  //   }
+    
+  //   .redesBox{
+  //   padding: 0;
+  //   margin-left: -17px;    
+  // }

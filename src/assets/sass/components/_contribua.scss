@@ -1,0 +1,46 @@
+.createdContribua{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 10%;
+    .createdBlock__contribua{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 30px 0;
+        // padding: 0 60px;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px 30px 0;
+        // padding: 0 10px;
+    }
+    .card__paragraph{
+        text-align: center;
+        line-height: 1.5;
+
+    }
+    .card__subTitle{
+        margin: 15px;
+        text-transform: uppercase;
+    }
+}
+@media (max-width: 768px){
+    .createdBlock__contribua{
+       flex-flow: wrap column;
+       .card{
+        margin: 50px 0 0 0;
+    }
+    }
+    .card__paragraph{
+        width: 80%;
+
+    }
+    .createdBlock__contribua .card{
+        margin-top: 40px;
+    }
+}

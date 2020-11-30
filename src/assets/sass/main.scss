@@ -1,0 +1,29 @@
+// Core
+@import 'core/colors';
+@import 'core/reset';
+@import 'core/global';
+@import 'core/grid';
+
+
+// Helpers
+@import 'helpers/title';
+@import 'helpers/button';
+@import 'helpers/slider';
+@import 'helpers/modalsobre';
+
+
+
+// Components
+@import 'components/navbar';
+@import 'components/header';
+@import 'components/contribua';
+@import 'components/noticiais';
+@import 'components/parceiros';  
+@import 'components/footer';
+@import 'components/sobre';
+@import 'components/projetos';
+
+// Pages
+@import 'pages/home';
+
+
