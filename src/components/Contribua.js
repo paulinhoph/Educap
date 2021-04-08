@@ -36,10 +36,18 @@ class Contribua extends React.Component {
                            className="Card"
                             image={icon3} alt="icon"
                             title="depósito"
-                            text="Doe para as ações e projetos do EDUCAP e veja o quanto a sua contribuição é importante possibilitando a transformação e desenvolvimento de muitos. 
-                            Banco: Itau - Conta: 109745-4
-                            Agência: 8698472-4"
+                            text="Doe para as ações e projetos do EDUCAP e veja o quanto a sua contribuição é importante possibilitando a transformação e desenvolvimento de muitos.
+                            Educap-Espaço Democrático de União, convivência , Aprendizagem e prevenção.
+                            Banco: Caixa Econômica Federal - Conta: 00001445-7
+                            Agência: 1095
+                            Cnpj - 14.537.014/0001-53
+                            CHAVE PIX: luciaoliveiracabral@gmail.com
+                            
+                            "
+                            
                         />
+                        
+                        
                     </div> 
                 </div>     
         );
