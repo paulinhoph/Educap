@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import iconEdu from '../assets/images/QR Code.png';
 import iconEdu from '../assets/images/educap1.svg';
 import iconInst from '../assets/images/insta_branco.svg';
 import iconFace from '../assets/images/face_branco.svg';
@@ -12,16 +11,7 @@ class Footer extends Component{
             <footer id="contatos">
                 <div className="container__footer" >
                     <div className="container__iconsFooter">
-                    <img className="container__iconsImgEducap" alt="Logo da educap branca" src={iconEdu}></img>
-
-
-                    {/* <img className="" alt="QR Code" src={iconEdu}></img>
-                    <br></br>
-                    <form action="https://www.paypal.com/donate" method="post" target="_top">
-                        <input type="hidden" name="hosted_button_id" value="7XJLYQN52UX5Q" />
-                        <input type="image" src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-                        <img alt="" border="0" src="https://www.paypal.com/pt_BR/i/scr/pixel.gif" width="1" height="1" />
-                    </form> */}
+                    <img className="container__iconsImgEducap" alt="Logo da educap branca" src={iconEdu} ></img>
                     </div>
                     <div className="container__iconsFooter modifyIcon">
                         <h2 className="container__iconsH2">Redes Socias</h2>
@@ -48,5 +38,3 @@ class Footer extends Component{
     };                                                                                                                                                                                              
 };
 export default Footer;
-
-{/* <img className="container__iconsImgEducap" alt="Logo da educap branca" src={iconEdu}></img> */}
