@@ -56,11 +56,11 @@ import Img11_1 from '../assets/images/TB2.jpg';
 import Img11_2 from '../assets/images/TB3.jpg';
 import Img11_3 from '../assets/images/TB4.jpg';
 import Img11_4 from '../assets/images/TB5.jpg';
-import Img12 from '../assets/images/vnw.jpg';
-import Img12_1 from '../assets/images/VNW1.jpg';
-import Img12_2 from '../assets/images/VNW2.jpg';
-import Img12_3 from '../assets/images/VNW3.jpg';
-import Img12_4 from '../assets/images/VNW6.jpg';
+// import Img12 from '../assets/images/vnw.jpg';
+// import Img12_1 from '../assets/images/VNW1.jpg';
+// import Img12_2 from '../assets/images/VNW2.jpg';
+// import Img12_3 from '../assets/images/VNW3.jpg';
+// import Img12_4 from '../assets/images/VNW6.jpg';
 
 
 export default class SliderCarosel extends Component {
@@ -159,13 +159,13 @@ export default class SliderCarosel extends Component {
         <p>A estabilização deste reforço escolar passou a levantar questões de como pensar a entrada dos estudantes da comunidade nas universidades, mesmo os que fazem parte desse projeto, em um futuro próximo. Logo, com o objetivo de auxiliar esses jovens e adultos moradores do Complexo do Alemão a ocuparem espaços nas universidades, fazendo usufruto de seus direitos, o EDUCAP surge com a proposta de implementar um pré-vestibular em seu espaço físico. O pré-vestibular “Educar para Transformar” buscará contribuir para diminuir a grande desigualdade existente no ambiente acadêmico, não só por meio de aulas conteudistas para a realização de exames de ingresso nas universidades, mas esclarecendo todas as questões referentes a políticas de inclusão e de permanência desses futuros universitários.</p>`,
         imagens: [Img8_1, Img8_2, Img8_3]
       },
-      {
-        banner: Img12,
-        nome: 'Vai na Web',
-        texto: `
-        <p>O Vai na Web é um movimento de alta tecnologia e impacto social que amplia as capacidades humanas e requalifica a força de trabalho para encarar os desafios da Indústria 4.0</p>`,
-        imagens: [Img12_1, Img12_2, Img12_3, Img12_4]
-      },
+      // {
+      //   banner: Img12,
+      //   nome: 'Vai na Web',
+      //   texto: `
+      //   <p>O Vai na Web é um movimento de alta tecnologia e impacto social que amplia as capacidades humanas e requalifica a força de trabalho para encarar os desafios da Indústria 4.0</p>`,
+      //   imagens: [Img12_1, Img12_2, Img12_3, Img12_4]
+      // },
       {
         banner: Img11,
         nome: 'Aulas de Violão e Produção Musical',

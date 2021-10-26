@@ -16,7 +16,7 @@ import icon4 from '../assets/images/tudoépauta.jpg';
 import icon5 from '../assets/images/cptech.png';
 import icon6 from '../assets/images/frasce.png';
 import icon7 from '../assets/images/ufrj.png';
-import icon8 from '../assets/images/vainaweb.png';
+// import icon8 from '../assets/images/vainaweb.png';
 import icon9 from '../assets/images/image2.png';
 
 class Parceiros extends React.Component {
@@ -90,9 +90,9 @@ class Parceiros extends React.Component {
                           <Card 
                           image={icon7}
                           />
-                          <Card 
+                          {/* <Card 
                           image={icon8}
-                          />
+                          /> */}
                           <Card 
                           image={icon9}
                           />
